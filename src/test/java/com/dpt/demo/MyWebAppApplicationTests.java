@@ -1,12 +1,13 @@
-package com.example.petapi;
+package com.dpt.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PetApiApplicationTests {
+class MyWebAppApplicationTests {
 
-    @Test
-    void contextLoads() {
-    }
+	@Test
+	void contextLoads() {
+	}
+
 }
