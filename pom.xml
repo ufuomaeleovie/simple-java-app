@@ -8,12 +8,12 @@
 		<version>2.2.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.devopsrealtime</groupId>
-	<artifactId>dptweb</artifactId>
+	<groupId>org.thecloudacademy</groupId>
+	<artifactId>tca</artifactId>
 	<version>1.0</version>
 	<packaging>war</packaging>
-	<name>dptweb</name>
-	<description>DPT DevOps project for Spring Boot</description>
+	<name>tcaweb</name>
+	<description>Cohorta DevOps project for Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -36,11 +36,6 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		
-		
-		
-		
-		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
